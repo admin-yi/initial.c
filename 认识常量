@@ -1,0 +1,47 @@
+1.字面常量
+
+3.13； 10； ‘a’; "abcdef"；
+
+2.const修饰常变量
+
+const int num = 10； //num就是常变量
+
+num=20；
+
+printf（“num = %d\n”，num）；
+
+3.#define定义的标识符常量
+
+#define min 10
+
+int n =min;
+
+printf("n=%d\n",n);
+
+4.枚举常量：可以一一列举的常量
+
+性别；三原色；星期
+
+enum sex
+
+{
+
+\\这种枚举类型的变量未来可能取值
+
+MALE
+
+FELL
+
+ADDDD
+
+}
+
+int main（）
+
+{
+
+enum sex s =MALE；
+
+printf（“%d\n”，MALE）；
+
+}
